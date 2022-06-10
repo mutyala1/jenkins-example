@@ -1,5 +1,5 @@
 pipeline {
-    agent linux-node
+    agent any
 
     stages {
         stage ('Compile Stage') {
